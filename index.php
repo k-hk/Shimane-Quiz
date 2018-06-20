@@ -26,7 +26,11 @@
 <a href="quiz.php"><br><br>スタート</a>
 
 <?php
-  $cornum=1;
+  session_start();
+  if(empty($_SESSION['cornum']))
+  {
+    $_SESSION['cornum']=0;
+  }
   print '累計'.$cornum.'問正解　　　<a href="coupon.php">特典はここをクリック</a>';
 ?>
 
