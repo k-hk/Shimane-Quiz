@@ -14,8 +14,6 @@
 島根良いものクイズ
 </taito>
 
-<a href="quiz.php"><br>スタート</a>
-
 </h1>
 </body>
 </html>
