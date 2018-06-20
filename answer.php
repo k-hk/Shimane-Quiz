@@ -21,9 +21,12 @@
 <?php
   session_start();
   $a="シジミ";
+
   if($_GET['ans']==1)
   {
     print '<img src="./image/mark_maru.png" alt="maru" title="maru"><br>';
+    $_SESSION['cornum']++;
+    $_SESSION['cnum']++;
   }
   else
   {
@@ -31,10 +34,17 @@
   }
   
   print "<pre>A.".$_SESSION['qnum']."　".$a."</pre><br><br>";
+  print '<img src="./image/shijimi.png" alt="ans" title="ans"><br><br>';
   
-  
+  if($_SESSION['qnum']>=5)
+  {
+    print '<a href="result.php">結果発表</a>';
+  }
+  else
+  {
+    print '<a href="quiz.php">次の問題へ</a>';
+  }
 ?>
-
 
 </h1>
 </body>

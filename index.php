@@ -32,6 +32,7 @@
     $_SESSION['cornum']=0;
   }
   $_SESSION['qnum']=0;
+  $_SESSION['cnum']=0;
   print '累計'.$_SESSION['cornum'].'問正解　　　<a href="coupon.php">特典はここをクリック</a>';
 ?>
 
