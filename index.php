@@ -10,9 +10,10 @@
 <body>
 <h1>
 
-<?php
-print "hello";
-?>
+<taito>
+島根良いものクイズ
+</taito>
+
 </h1>
 </body>
 </html>
