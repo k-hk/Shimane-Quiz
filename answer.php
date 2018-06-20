@@ -20,18 +20,14 @@
 <h1>
 <?php
   session_start();
-  /*
-  if(1)
+  if($_GET['ans']==1)
   {
-    print "<taito><font color="red">○</fonr></taito><br>";
+    print "<taito>○</taito><br>";
   }
   else
   {
-    print "<taito><font color="blue">×</fonr></taito><br>";
+    print "<taito>×</taito><br>";
   }
-  */
-  //print "<taito><font color="blue">×</font></taito><br>";
-  print "<font color="blue">q</font><br>";
   $a="シジミ";
   print "A.".$_SESSION['qnum'].$a."<br>";
   
