@@ -28,9 +28,9 @@
   $a="シジミ";
   $b="サザエ";
   $c="マグロ";
-  print '<pre><a href="answer.php?ans=1">'.$a.'</a>';
-  print '<a href="answer.php?ans=2">　　　　'.$b.'　　　　</a>';
-  print '<a href="answer.php?ans=3">'.$c.'</a></pre>';
+  print '<pre><a href="answer.php">'.$a.'</a>';
+  print '<a href="answer.php">　　　　'.$b.'　　　　</a>';
+  print '<a href="answer.php">'.$c.'</a></pre>';
 
 ?>
 
