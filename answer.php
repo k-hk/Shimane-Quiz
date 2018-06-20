@@ -20,7 +20,7 @@
 <h1>
 <?php
   session_start();
-  if($_GET['ans']==1)
+  if(1)
   {
     print "<taito><font color="red">○</fonr></taito><br>";
   }
