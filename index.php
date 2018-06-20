@@ -1,5 +1,5 @@
 <?php
-
+/*
 print <<eot1
   <html>
   <head>
@@ -11,6 +11,6 @@ print <<eot1
   <link rel="stylesheet" href="./quiz.css" type="text/css">
   </head>
 eot1;
-
+*/
 print "hello";
 ?>
