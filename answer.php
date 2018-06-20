@@ -22,11 +22,11 @@
   session_start();
   if($_GET['ans']==1)
   {
-    print "<img src="./image/mark_maru.png" alt="maru" title="maru"><br>";
+    print '<img src="./image/mark_maru.png" alt="maru" title="maru"><br>';
   }
   else
   {
-    print "<img src="./image/mark_batu.png" alt="batu" title="batu"><br>";
+    print '<img src="./image/mark_batsu.png" alt="batu" title="batu"><br>';
   }
   $a="シジミ";
   print "A.".$_SESSION['qnum'].$a."<br>";
