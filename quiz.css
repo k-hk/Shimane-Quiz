@@ -2,6 +2,7 @@ body{
   background-image:url(./image/background.png);
   background-repeat: no-repeat;
   background-position: center center;
+  margin:0;
   text-align:center;
   color: white;
   font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
@@ -9,5 +10,5 @@ body{
 }
 
 taito{
-  font-size: 150%
+  font-size: 110%
 }
