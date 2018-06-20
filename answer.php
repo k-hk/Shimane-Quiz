@@ -24,16 +24,16 @@
 
   if($_GET['ans']==1)
   {
-    print '<img src="./image/mark_maru.png" alt="maru" title="maru"><br>';
+    print '<img src="./image/mark_maru.png" alt="maru" title="maru"><br><br>';
     $_SESSION['cornum']++;
     $_SESSION['cnum']++;
   }
   else
   {
-    print '<img src="./image/mark_batsu.png" alt="batu" title="batu"><br>';
+    print '<img src="./image/mark_batsu.png" alt="batu" title="batu"><br><br>';
   }
 
-  print '<img src="./image/shijimi.png" alt="ans" title="ans"  align="right" hspace="10">';
+  print '<img src="./image/shijimi.png" alt="ans" title="ans"  align="left" hspace="10">';
   print "<pre>A.".$_SESSION['qnum']."　".$a."</pre><br>";
   
   
