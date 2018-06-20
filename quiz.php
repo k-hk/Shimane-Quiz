@@ -18,10 +18,14 @@
 </head>
 <body>
 <h1>
+<?php
+  session_start();
+  $_SESSION['qnum']++;
+  print "Q.".$_SESSION['qnum'];
 
-<taito>
-島根良いものクイズ
-</taito>
+
+?>
+
 
 </h1>
 </body>
