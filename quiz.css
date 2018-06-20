@@ -1,9 +1,14 @@
-h1{
+body{
   background-image:url(./image/background.png);
   background-repeat: no-repeat;
   background-position: center center;
   text-align:center;
-  background-size: contain;
   color: white;
   font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  font-size: 70px
+}
+
+tito{
+  padding:100px;
+  font-size: 200%
 }
