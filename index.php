@@ -33,7 +33,14 @@
   }
   $_SESSION['qnum']=0;
   $_SESSION['cnum']=0;
-  print '累計'.$_SESSION['cornum'].'問正解　　　<a href="coupon.php">特典はここをクリック</a>';
+  if($_SESSION['cornum']>=5)
+  {
+    print '累計'.$_SESSION['cornum'].'問正解　　　<a href="coupon.php" target="_blank">特典はここをクリック</a>';
+  }
+  else
+  {
+    print '累計'.$_SESSION['cornum'].'問正解';
+  }
 ?>
 
 

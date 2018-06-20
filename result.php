@@ -24,11 +24,11 @@
 
   if($_SESSION['cnum']==5)
   {
-    print 'Congratulation!!<br>すばらしい!!<br>君は<br>島根マスターだ!!<br>';
+    print 'Congratulation!!<br>すばらしい!!<br>君は<br>島根マスターだ!!<br><br>';
   }
   else
   {
-    print 'どうしたんだ!!<br>君の島根に対する<br>パッションは<br>この程度じゃないはずだ!!<br>';
+    print 'どうしたんだ!!!!<br>君の島根に対する<br>パッションは<br>この程度じゃないはずだ!!!!<br><br>';
   }
 
   print '<a href="index.php">タイトルへ</a>';
