@@ -27,10 +27,9 @@
 
 <?php
   $cornum=1;
-  print '<a href="coupon.php"><br><br>累計'.$cornum.'問正解　　　特典はここをクリック</a>';
+  print '<a href="coupon.php"><br>累計'.$cornum.'問正解　　　特典はここをクリック</a>';
 ?>
 
-<br>
 <br>
 言語変更
 <a href="index.php">   日本語</a>
