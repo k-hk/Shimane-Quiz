@@ -6,6 +6,14 @@
 <meta http-equiv="Content-Style-Type" content="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <link rel="stylesheet" href="./quiz.css" type="text/css">
+<style type="text/css">
+<!--
+  a:link {color:white;}
+  a:visited{color:white;} 
+  a:hover{color:white;} 
+  a:active{color:white;} 
+-->
+</style>
 </head>
 <body>
 <h1>
@@ -14,7 +22,7 @@
 島根良いものクイズ
 </taito>
 
-<a href="quiz.php"><br>スタート</a>
+<a href="quiz.php"><br><br><br>スタート</a>
 
 </h1>
 </body>
