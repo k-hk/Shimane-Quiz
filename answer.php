@@ -20,6 +20,7 @@
 <h1>
 <?php
   session_start();
+  $a="シジミ";
   if($_GET['ans']==1)
   {
     print '<img src="./image/mark_maru.png" alt="maru" title="maru"><br>';
@@ -28,10 +29,10 @@
   {
     print '<img src="./image/mark_batsu.png" alt="batu" title="batu"><br>';
   }
-  $a="シジミ";
-  print "A.".$_SESSION['qnum'].$a."<br>";
   
-
+  print "<pre>A.".$_SESSION['qnum']."　".$a."</pre><br><br>";
+  
+  
 ?>
 
 
