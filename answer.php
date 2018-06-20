@@ -33,8 +33,8 @@
     print '<img src="./image/mark_batsu.png" alt="batu" title="batu"><br><br>';
   }
 
-  print '<img src="./image/shijimi.png" alt="ans" title="ans"  align="center" hspace="10">';
-  print "<pre>A.".$_SESSION['qnum']."　".$a."</pre><br>";
+  //print '<img src="./image/shijimi.png" alt="ans" title="ans"  align="center" hspace="10">';
+  print "<pre>A.".$_SESSION['qnum']."　".$a."</pre><br><br>";
   
   
   if($_SESSION['qnum']>=5)
