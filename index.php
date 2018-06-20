@@ -11,7 +11,8 @@
   a:link {color:white;}
   a:visited{color:white;} 
   a:hover{color:white;} 
-  a:active{color:white;} 
+  a:active{color:white;}
+  a {text-decoration:none;} 
 -->
 </style>
 </head>

@@ -6,6 +6,15 @@
 <meta http-equiv="Content-Style-Type" content="text/css">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <link rel="stylesheet" href="./quiz.css" type="text/css">
+<style type="text/css">
+<!--
+  a:link {color:white;}
+  a:visited{color:white;} 
+  a:hover{color:white;} 
+  a:active{color:white;}
+  a {text-decoration:none;} 
+-->
+</style>
 </head>
 <body>
 <h1>
