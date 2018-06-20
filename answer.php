@@ -30,7 +30,7 @@
     print "<taito><font color="blue">×</fonr></taito><br>";
   }
   */
-  print "<taito><font color="blue">×</fonr></taito><br>";
+  print "<taito><font color="blue">×</font></taito><br>";
   $a="シジミ";
   print "A.".$_SESSION['qnum'].$a."<br>";
   
