@@ -5,9 +5,9 @@ body{
   text-align:center;
   color: white;
   font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  padding-top: 100px;
 }
 
 taito{
   font-size: 200%;
-  height:500px;
 }
