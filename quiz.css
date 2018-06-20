@@ -3,5 +3,5 @@ h1{
   background-repeat: no-repeat;
   background-position: center center;
   text-align:center;
-  background-size:contain;
+  background-size: 100% auto;
 }
