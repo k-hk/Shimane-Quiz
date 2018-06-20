@@ -33,7 +33,7 @@
     print '<img src="./image/mark_batsu.png" alt="batu" title="batu"><br>';
   }
 
-  print '<img src="./image/shijimi.png" alt="ans" title="ans"  align="middle">';
+  print '<img src="./image/shijimi.png" alt="ans" title="ans"  align="right">';
   print "<pre>A.".$_SESSION['qnum']."　".$a."</pre><br>";
   
   
