@@ -12,4 +12,5 @@ print <<eot1
   </head>
 eot1;
 
+print "hello";
 ?>
