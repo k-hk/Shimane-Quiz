@@ -23,6 +23,15 @@
   $_SESSION['qnum']++;
   print "Q.".$_SESSION['qnum'];
   print "<br>主に宍道湖でとれる<br>島根の漁獲量が3年連続日本一の<br>水産物は何でしょう？";
+
+  print "<br><br><br>";
+  $a="シジミ";
+  $b="サザエ";
+  $c="マグロ";
+  print '<pre><a href="answer.php?ans=1">'.$a.'</a>';
+  print '<a href="answer.php?ans=2">'.$b.'</a>';
+  print '<a href="answer.php?ans=3">'.$c.'</a></pre>';
+
 ?>
 
 
