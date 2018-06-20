@@ -7,10 +7,12 @@
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <link rel="stylesheet" href="./quiz.css" type="text/css">
 </head>
-
+<body>
+<h1>
 
 <?php
 print "hello";
 ?>
-
+</h1>
+</body>
 </html>
