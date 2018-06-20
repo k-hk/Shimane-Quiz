@@ -1,8 +1,7 @@
 h1{
-  background-image:url(./image/background.png);
+  background-image:url(./background.png);
   background-repeat: no-repeat;
   background-position: center;
-  color:green;
   padding:50px;
   text-align:center;
 }
