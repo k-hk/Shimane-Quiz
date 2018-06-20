@@ -30,7 +30,6 @@
   print '<a href="coupon.php"><br>累計'.$cornum.'問正解　　　特典はここをクリック</a>';
 ?>
 
-<br>
 言語変更
 <a href="index.php">   日本語</a>
 <a href="index_eng.php">   English</a>
