@@ -33,8 +33,9 @@
   print_r($_SESSION['endque']);
   $sql = 'select question,ans1,ans2,ans3,tans from quiz where num='.$_SESSION['qn'].';';
   $res=$pdo->query($sql);
-  print $res[question];
-   
+  foreach( $res as $value ) {
+    echo "$value[question]<br>";
+  }
   print "<br><br>";
   $a="シジミ";
   $b="サザエ";
