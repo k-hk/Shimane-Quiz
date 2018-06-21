@@ -28,15 +28,13 @@
   $_SESSION['qnum']++;
   print "Q.".$_SESSION['qnum'];
 
-  $_SESSION['qn']=rand(1,1);
+  $_SESSION['qn']=rand(1,5);
   array_push($_SESSION['endque'],$_SESSION['qn']);
   print_r($_SESSION['endque']);
   $sql = 'select question,ans1,ans2,ans3,tans from quiz where num='.$_SESSION['qn'].';';
-  print $sql;
-  $_SESSION['que']=$pdo->query($sql);
-  print_r($_SESSION['que']);
-  print $_SESSION['que'][question];
-
+  $res=$pdo->query($sql);
+  print $res[question];
+   
   print "<br><br>";
   $a="シジミ";
   $b="サザエ";
