@@ -20,9 +20,8 @@
 <h1>
 <?php
   session_start();
-  $a="シジミ";
 
-  if($_GET['ans']==1)
+  if($_GET['ans']==$_SESSION['que'][tans])
   {
     print '<img src="./image/mark_maru.png" alt="maru" title="maru"><br><br>';
     $_SESSION['cornum']++;
@@ -34,7 +33,7 @@
   }
 
   //print '<img src="./image/shijimi.png" alt="ans" title="ans"  align="center" hspace="10">';
-  print "<pre>A.".$_SESSION['qnum']."　".$a."</pre><br><br>";
+  print "<pre>A.".$_SESSION['qnum']."　".$_SESSION['que']["ans$key"]."</pre><br><br>";
   
   
   if($_SESSION['qnum']>=5)
