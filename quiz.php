@@ -30,13 +30,11 @@
  
   $_SESSION['qn']=rand(1,1);
   array_push($_SESSION['endque'],$_SESSION['qn']);
-  print_r($_SESSION['endque']);
   $sql = "select question,ans1,ans2,ans3,tans from quiz where num={$_SESSION['qn']};";
-  print $sql;
   $stmt= $pdo->query($sql);
-  $result = $stmt->fetch(PDO::FETCH_ASSOC);
+  $_SESSION['que'] = $stmt->fetch(PDO::FETCH_ASSOC);
  
-  print $result[question];
+  print $_SESSION['que'][question];
   
   print "<br><br>";
   $a="シジミ";
