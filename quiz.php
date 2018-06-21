@@ -19,9 +19,19 @@
 <body>
 <h1>
 <?php
+  $url = parse_url(getenv('DATABASE_URL'));
+  $dsn = sprintf('pgsql:host=%s;dbname=%s', $url['host'], substr($url['path'], 1));
+  $pdo = new PDO($dsn, $url['user'], $url['pass']);
+
+
   session_start();
   $_SESSION['qnum']++;
   print "Q.".$_SESSION['qnum'];
+
+  $_SESSION['qn']=rand(1,5);
+  array_push($_SESSION['endque'],$_SESSION['qn']);
+  print_r($_SESSION['endque']);
+  
   print "<br>主に宍道湖でとれる<br>島根の漁獲量が3年連続日本一の<br>水産物は何でしょう？";
 
   print "<br><br>";
@@ -38,3 +48,4 @@
 </h1>
 </body>
 </html>
+insert into quiz(question,ans1,ans2,ans3,tans) values ('<br>主に宍道湖でとれる<br>島根の漁獲量が3年連続日本一の<br>水産物は何でしょう？','シジミ','サザエ','マグロ',1);
