@@ -1,0 +1,1 @@
+insert into quiz(question,ans1,ans2,ans3,tans) values ('<br>主に宍道湖でとれる<br>島根の漁獲量が3年連続日本一の<br>水産物は何でしょう？','シジミ','サザエ','マグロ',1);

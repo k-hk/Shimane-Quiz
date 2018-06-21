@@ -31,10 +31,12 @@
   $_SESSION['qn']=rand(1,5);
   array_push($_SESSION['endque'],$_SESSION['qn']);
   print_r($_SESSION['endque']);
-  $sql = 'select question,ans1,ans2,ans3,tans from quiz where num='.$_SESSION['qn'].';';
-  $res=$pdo->query($sql);
+  //$sql = 'select question,ans1,ans2,ans3,tans from quiz where num='.$_SESSION['qn'].';';
+  $sql="select * from quiz";
+  $res= $pdo->query($sql);
   foreach( $res as $value ) {
     echo "$value[question]<br>";
+    echo "$value[ans1]<br>";
   }
   print "<br><br>";
   $a="シジミ";
@@ -51,4 +53,3 @@
 </body>
 </html>
 
-insert into quiz(question,ans1,ans2,ans3,tans) values ('<br>主に宍道湖でとれる<br>島根の漁獲量が3年連続日本一の<br>水産物は何でしょう？','シジミ','サザエ','マグロ',1);
