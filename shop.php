@@ -9,10 +9,10 @@
 </head>
 <body>
 クーポン利用可能店(イメージ)<br>
-<pre>店名　割引内容　クリックするとお店のホームページに飛びます
+<pre>店名　できること 割引内容　クリックするとお店のホームページに飛びます
 
 
-<a href="http://www.shijimikan.com/index.html">宍道湖シジミ館　全品5%off</a>
+<a href="http://www.shijimikan.com/index.html">宍道湖シジミ館　シジミなどの特産品の購入等 全品5%off</a>
 </pre>
 </body>
 </html>
