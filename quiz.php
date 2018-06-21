@@ -32,10 +32,11 @@
   array_push($_SESSION['endque'],$_SESSION['qn']);
   print_r($_SESSION['endque']);
   $sql = "select question,ans1,ans2,ans3,tans from quiz where num={$_SESSION['qn']};";
+  print $sql;
   $res= $pdo->query($sql);
   foreach( $res as $value ) {
-    echo "$value['question']<br>";
-    echo "$value['ans1']<br>";
+    echo "$value[question]<br>";
+    echo "$value[ans1]<br>";
   }
   print "<br><br>";
   $a="シジミ";
