@@ -22,7 +22,6 @@
   $url = parse_url(getenv('DATABASE_URL'));
   $dsn = sprintf('pgsql:host=%s;dbname=%s', $url['host'], substr($url['path'], 1));
   $pdo = new PDO($dsn, $url['user'], $url['pass']);
-  var_dump($pdo->getAttribute(PDO::ATTR_SERVER_VERSION));
 
   session_start();
   $_SESSION['qnum']++;
@@ -37,12 +36,9 @@
   print $_SESSION['que'][question];
   
   print "<br><br>";
-  $a="シジミ";
-  $b="サザエ";
-  $c="マグロ";
-  print '<pre><a href="answer.php?ans=1">'.$a.'</a>';
-  print '<a href="answer.php?ans=2">　　　　'.$b.'　　　　</a>';
-  print '<a href="answer.php?ans=3">'.$c.'</a></pre>';
+  print '<pre><a href="answer.php?ans=1">'.$_SESSION['que'][ans1].'</a>';
+  print '<a href="answer.php?ans=2">　　　　'.$_SESSION['que'][ans2].'　　　　</a>';
+  print '<a href="answer.php?ans=3">'.$_SESSION['que'][ans3].'</a></pre>';
 
 ?>
 
