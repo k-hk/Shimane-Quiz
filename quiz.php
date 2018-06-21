@@ -31,7 +31,7 @@
   $_SESSION['qn']=rand(1,5);
   array_push($_SESSION['endque'],$_SESSION['qn']);
   print_r($_SESSION['endque']);
-  $sql = 'select question,ans1,ans2,ans3,tans from quiz where num={$_SESSION['qn']};';
+  $sql = "select question,ans1,ans2,ans3,tans from quiz where num={$_SESSION['qn']};";
   //$sql="select * from quiz";
   $res= $pdo->query($sql);
   foreach( $res as $value ) {
