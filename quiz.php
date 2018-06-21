@@ -32,6 +32,7 @@
   array_push($_SESSION['endque'],$_SESSION['qn']);
   print_r($_SESSION['endque']);
   $sql = 'select question,ans1,ans2,ans3,tans from quiz where num='.$_SESSION['qn'].';';
+  print $sql;
   $_SESSION['que']=$pdo->query($sql);
 
   print $_SESSION['que']['question'];
