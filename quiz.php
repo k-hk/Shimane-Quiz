@@ -26,8 +26,10 @@
   session_start();
   $_SESSION['qnum']++;
   print "Q.".$_SESSION['qnum'];
- 
-  $_SESSION['qn']=rand(1,2);
+  do{
+
+  }while();
+  
   array_push($_SESSION['endque'],$_SESSION['qn']);
   $sql = "select question,ans1,ans2,ans3,tans from quiz where num={$_SESSION['qn']};";
   $stmt= $pdo->query($sql);

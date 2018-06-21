@@ -1,2 +1,7 @@
-insert into quiz(question,ans1,ans2,ans3,tans) values ('<br>主に宍道湖でとれる<br>島根の漁獲量が3年連続日本一の<br>水産物は何でしょう？','シジミ','サザエ','マグロ',1);
-insert into quiz(question,ans1,ans2,ans3,tans) values ('<br>安来市にある足立美術館では<br>足立美術館では世界一のあるものが見れます。<br>それは何でしょう？','つぼ','絵画','庭園',3);
+insert into quiz(question,ans1,ans2,ans3,tans) values ('<br>主に宍道湖でとれる<br>島根の漁かく量が3年連続日本一の<br>水産物は何でしょう？','シジミ','サザエ','マグロ',1);
+insert into quiz(question,ans1,ans2,ans3,tans) values ('<br>安来市にある足立美術館では<br>世界一のあるものが見ることができます。<br>それは何でしょう？','つぼ','絵画','庭園',3);
+insert into quiz(question,ans1,ans2,ans3,tans) values ('<br>安来市にある月山富田城はなんこう不落の城として有名で<br>ある別名でも呼ばれていました。<br>それは何でしょう？','最強の城','天空の城','大地の城',2);
+insert into quiz(question,ans1,ans2,ans3,tans) values ('<br>大田市にある仁摩サンドミュージアムには<br>ある巨大な物があります。<br>それは何でしょう？','メガネ','砂時計','ロボット',2);
+insert into quiz(question,ans1,ans2,ans3,tans) values ('<br>安来市の伝統芸能である安来節には<br>ユーモラスな踊りがあります。<br>それは何でしょう？','どじょうすくいおどり','うなぎとりおどり','しおひがりおどり',1);
+
+select setval('quiz_num_seq', 1, false);
