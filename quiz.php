@@ -34,7 +34,7 @@
   $sql = 'select question,ans1,ans2,ans3,tans from quiz where num='.$_SESSION['qn'].';';
   print $sql;
   $_SESSION['que']=$pdo->query($sql);
-
+  print_r($_SESSION['que']);
   print $_SESSION['que'][question];
 
   print "<br><br>";
