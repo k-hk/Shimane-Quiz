@@ -38,7 +38,6 @@
    // echo "$value[question]<br>";
     echo "$value[ans1]<br>";
   }
-  echo $res[question];
   print "<br><br>";
   $a="シジミ";
   $b="サザエ";
