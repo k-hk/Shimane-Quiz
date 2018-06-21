@@ -34,8 +34,7 @@
   $sql = "select question,ans1,ans2,ans3,tans from quiz where num={$_SESSION['qn']};";
   $res= $pdo->query($sql);
   foreach( $res as $value ) {
-    //echo "$value[question]<br>";
-    echo "$value[ans1]<br>";
+    echo "$value[question]<br>";
   }
   print $res[question];
   print "<br><br>";
