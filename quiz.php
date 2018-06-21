@@ -35,8 +35,8 @@
   $res= $pdo->query($sql);
   foreach( $res as $value ) {
     echo "$value[question]<br>";
+    echo "$value[ans1]<br>";
   }
-  print $res[question];
   print "<br><br>";
   $a="シジミ";
   $b="サザエ";
