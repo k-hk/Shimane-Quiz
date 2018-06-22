@@ -32,7 +32,7 @@
     print '<img src="./image/mark_batsu.png" alt="batu" title="batu" hspace="100" align="top">';
   }
 
-  print '<img src="./image/'.$_SESSION["img"]["name"].' alt="ans" height=300 width=300></ans><br><br>';
+  print '<img src="./image/'.$_SESSION['img'][name].'" alt="ans" height=300 width=300></ans><br><br>';
   print '<pre><ans>A'.$_SESSION['qnum'].'.　'.$_SESSION['que']["ans{$_SESSION['que'][tans]}"].'</pre>';
   
   if($_SESSION['qnum']>=5)
