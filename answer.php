@@ -41,7 +41,7 @@
   }
   else
   {
-    print '<a href="quiz.php">次の問題へ</a>';
+    print '<br><br><a href="quiz.php">次の問題へ</a>';
   }
 ?>
 
