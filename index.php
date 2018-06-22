@@ -25,6 +25,7 @@
 <pre>
 <a href="quiz.php"><br><br>スタート</a>
 
+
 <?php
   session_start();
   if(empty($_SESSION['cornum']))
