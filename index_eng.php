@@ -20,7 +20,7 @@
 <h1>
 
 <taito>
-島根良いものクイズ
+Shimane Good things Quiz
 </taito>
 <pre>
 <a href="quiz.php"><br><br>スタート</a>
@@ -40,16 +40,16 @@
   $prize=5;
   if($_SESSION['cornum']>=$prize)
   {
-    print '累計'.$_SESSION['cornum'].'問正解　　　　<a href="coupon.php" target="_blank">特典はここをクリック</a>';
+    print 'grand total'.$_SESSION['cornum'].'question correctly　　　　<a href="coupon.php" target="_blank">特典はここをクリック</a>';
   }
   else
   {
-    print '累計'.$_SESSION['cornum'].'問正解　　　　累計正解数が'.$prize.'を超えると??';
+    print 'grand total'.$_SESSION['cornum'].'question correctly　　　　累計正解数が'.$prize.'を超えると??';
   }
 ?>
 
 
-言語変更        <a href="index.php">日本語</a>     <a href="index_eng.php">English</a>         </pre>
+language selection  <a href="index.php">日本語</a>     <a href="index_eng.php">English</a>         </pre>
 </h1>
 </body>
 </html>
