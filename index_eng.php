@@ -24,7 +24,7 @@ Good things<br>
 Quiz<br>
 <eng>
 <pre>
-<a href="quiz.php"><br><br>start</a>
+<a href="quiz.php"><br>start</a>
 
 
 <?php
@@ -41,17 +41,18 @@ Quiz<br>
   $prize=5;
   if($_SESSION['cornum']>=$prize)
   {
-    print 'Total number of correct answers is'.$_SESSION['cornum'];
+    print 'Total number of correct answers is '.$_SESSION['cornum'];
     print '<br><br><a href="coupon.php" target="_blank">Click here to get prize</a>';
   }
   else
   {
-    print 'total '.$_SESSION['cornum'].' question correctly　　　　累計正解数が'.$prize.'を超えると??';
+    print 'Total number of correct answers is '.$_SESSION['cornum'].;
+    print 'more than '.$prize.' correct answers...';
   }
 ?>
 
 
-language selection  <a href="index.php">日本語</a>     <a href="index_eng.php">English</a>         </pre>
+Language selection  <a href="index.php">日本語</a>     <a href="index_eng.php">English</a>         </pre>
 </eng>
 </h1>
 </body>
