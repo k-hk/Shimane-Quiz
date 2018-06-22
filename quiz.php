@@ -35,6 +35,10 @@
   $sql = "select question,ans1,ans2,ans3,tans from quiz where num={$_SESSION['qn']};";
   $stmt= $pdo->query($sql);
   $_SESSION['que'] = $stmt->fetch(PDO::FETCH_ASSOC);
+
+  $sql = "select name from img where num={$_SESSION['qn']};";
+  $stmt= $pdo->query($sql);
+  $_SESSION['img'] = $stmt->fetch(PDO::FETCH_ASSOC);
  
   print $_SESSION['que'][question];
   
