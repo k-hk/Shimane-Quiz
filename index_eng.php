@@ -46,8 +46,8 @@ Quiz<br>
   }
   else
   {
-    print 'Total number of correct answers is '.$_SESSION['cornum'].;
-    print 'more than '.$prize.' correct answers...';
+    print 'Total number of correct answers is '.$_SESSION['cornum'];
+    print '<br><br>more than '.$prize.' correct answers...';
   }
 ?>
 
