@@ -36,13 +36,14 @@
   $_SESSION['endque']=array();
   array_push($_SESSION['endque'],0);
   
-  if($_SESSION['cornum']>=5)
+  $prize=5;
+  if($_SESSION['cornum']>=$prize)
   {
-    print '累計'.$_SESSION['cornum'].'問正解　　　<a href="coupon.php" target="_blank">特典はここをクリック</a>';
+    print '累計'.$_SESSION['cornum'].'問正解　　　　<a href="coupon.php" target="_blank">特典はここをクリック</a>';
   }
   else
   {
-    print '累計'.$_SESSION['cornum'].'問正解';
+    print '累計'.$_SESSION['cornum'].'問正解　　　　累計正解数が'.$prize.'を超えると??';
   }
 ?>
 
