@@ -41,11 +41,11 @@ Quiz<br>
   $prize=5;
   if($_SESSION['cornum']>=$prize)
   {
-    print 'total '.$_SESSION['cornum'].' question correctly　　　　<a href="coupon.php" target="_blank">特典はここをクリック</a>';
+    print 'total '.$_SESSION['cornum'].' question correctly<br>    <a href="coupon.php" target="_blank">Click here to get prize</a>';
   }
   else
   {
-    print 'grand total'.$_SESSION['cornum'].'question correctly　　　　累計正解数が'.$prize.'を超えると??';
+    print 'total '.$_SESSION['cornum'].' question correctly　　　　累計正解数が'.$prize.'を超えると??';
   }
 ?>
 
