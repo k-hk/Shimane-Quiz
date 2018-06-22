@@ -53,7 +53,7 @@ Quiz<br>
 
 
 
-Language selection       <a href="index.php">日本語</a>　　<a href="index_eng.php">English</a> 　　　      </pre>
+Language selection       <a href="index.php">日本語</a>　　<a href="index_eng.php">English</a> 　　　   </pre>
 </eng>
 </h1>
 </body>
