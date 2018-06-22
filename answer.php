@@ -34,7 +34,7 @@
 
   print '<p><img src="./image/shijimi.png" alt="ans">';
   print "<pre>A".$_SESSION['qnum'].".　".$_SESSION['que']["ans{$_SESSION['que'][tans]}"]."</p></pre><br><br>";
-  
+  print "<pre>A".$_SESSION['qnum'].".　".$_SESSION['que']["ans{$_SESSION['que'][tans]}"]."</p></pre>";
   
   if($_SESSION['qnum']>=5)
   {
