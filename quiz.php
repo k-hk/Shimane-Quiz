@@ -40,7 +40,7 @@
   
   print "<br><br>";
   print '<pre><a href="answer.php?ans=1">'.$_SESSION['que'][ans1].'</a>';
-  print '<a href="answer.php?ans=2">　　　　'.$_SESSION['que'][ans2].'　　　　</a>';
+  print '　　　　<a href="answer.php?ans=2">'.$_SESSION['que'][ans2].'</a>　　　　';
   print '<a href="answer.php?ans=3">'.$_SESSION['que'][ans3].'</a></pre>';
 
 ?>
