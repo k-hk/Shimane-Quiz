@@ -41,7 +41,8 @@ Quiz<br>
   $prize=5;
   if($_SESSION['cornum']>=$prize)
   {
-    print 'total '.$_SESSION['cornum'].' question correctly<br>    <a href="coupon.php" target="_blank">Click here to get prize</a>';
+    print 'Total number of correct answers is'.$_SESSION['cornum'];
+    print '<br><br><a href="coupon.php" target="_blank">Click here to get prize</a>';
   }
   else
   {
