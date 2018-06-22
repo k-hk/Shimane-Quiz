@@ -23,7 +23,7 @@
 
   if($_GET['ans']==$_SESSION['que'][tans])
   {
-    print '<img src="./image/mark_maru.png" alt="maru" title="maru" hspace="100">';
+    print '<img src="./image/mark_maru.png" alt="maru" title="maru" hspace="100" align:middle;>';
     $_SESSION['cornum']++;
     $_SESSION['cnum']++;
   }
