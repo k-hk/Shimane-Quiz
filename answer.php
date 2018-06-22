@@ -29,10 +29,10 @@
   }
   else
   {
-    print '<img src="./image/mark_batsu.png" alt="batu" title="batu">';
+    print '<img src="./image/mark_batsu.png" alt="batu" title="batu" hspace="100" align="top">';
   }
 
-  print '<img src="./image/shijimi.png" alt="ans"></ans><pre><ans>A'.$_SESSION['qnum'].'.　'.$_SESSION['que']["ans{$_SESSION['que'][tans]}"].'</pre>';
+  print '<img src="./image/shijimi.png" alt="ans" height=200 width=200></ans><pre><ans>A'.$_SESSION['qnum'].'.　'.$_SESSION['que']["ans{$_SESSION['que'][tans]}"].'</pre>';
   
   if($_SESSION['qnum']>=5)
   {
