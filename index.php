@@ -49,8 +49,7 @@
 ?>
 
 
-言語変更<a href="index.php">        日本語</a><a href="index.php">     English         </a>
-</pre>
+言語変更        <a href="index.php">日本語</a>     <a href="index.php">English</a>         </pre>
 </h1>
 </body>
 </html>
