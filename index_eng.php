@@ -19,9 +19,9 @@
 <body>
 <h1>
 
-<taito>
-Shimane Good things Quiz
-</taito>
+Shimane<br>
+Good things<br>
+Quiz<br>
 <pre>
 <a href="quiz.php"><br><br>スタート</a>
 
