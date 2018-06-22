@@ -37,11 +37,11 @@
   
   if($_SESSION['qnum']>=5)
   {
-    print '<br><br><a href="result.php">結果発表</a>';
+    print '<br><a href="result.php">結果発表</a>';
   }
   else
   {
-    print '<br><br><a href="quiz.php">次の問題へ</a>';
+    print '<br><a href="quiz.php">次の問題へ</a>';
   }
 ?>
 
