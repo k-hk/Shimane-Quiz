@@ -23,7 +23,7 @@
 
   if($_GET['ans']==$_SESSION['que'][tans])
   {
-    print '<img src="./image/mark_maru.png" alt="maru" title="maru">';
+    print '<img src="./image/mark_maru.png" alt="maru" title="maru" hspace="20">';
     $_SESSION['cornum']++;
     $_SESSION['cnum']++;
   }
@@ -32,7 +32,7 @@
     print '<img src="./image/mark_batsu.png" alt="batu" title="batu">';
   }
 
-  print '<ans><img src="./image/shijimi.png" alt="ans"></ans><pre><ans>A'.$_SESSION['qnum'].'.　'.$_SESSION['que']["ans{$_SESSION['que'][tans]}"].'</ans></pre>';
+  print '<img src="./image/shijimi.png" alt="ans"></ans><pre><ans>A'.$_SESSION['qnum'].'.　'.$_SESSION['que']["ans{$_SESSION['que'][tans]}"].'</pre>';
   
   if($_SESSION['qnum']>=5)
   {
