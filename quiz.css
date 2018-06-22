@@ -13,6 +13,10 @@ taito{
   font-size: 220%;
 }
 
+eng{
+  font-size: 100%;
+}
+
 ans{
  display:inline-block;
  vertical-align:middle;

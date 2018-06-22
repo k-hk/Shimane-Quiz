@@ -22,8 +22,9 @@
 Shimane<br>
 Good things<br>
 Quiz<br>
+<eng>
 <pre>
-<a href="quiz.php"><br><br>スタート</a>
+<a href="quiz.php"><br><br>start</a>
 
 
 <?php
@@ -40,7 +41,7 @@ Quiz<br>
   $prize=5;
   if($_SESSION['cornum']>=$prize)
   {
-    print 'grand total'.$_SESSION['cornum'].'question correctly　　　　<a href="coupon.php" target="_blank">特典はここをクリック</a>';
+    print 'total '.$_SESSION['cornum'].' question correctly　　　　<a href="coupon.php" target="_blank">特典はここをクリック</a>';
   }
   else
   {
@@ -50,6 +51,7 @@ Quiz<br>
 
 
 language selection  <a href="index.php">日本語</a>     <a href="index_eng.php">English</a>         </pre>
+</eng>
 </h1>
 </body>
 </html>
