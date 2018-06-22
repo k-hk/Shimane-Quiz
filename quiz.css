@@ -12,3 +12,8 @@ body{
 taito{
   font-size: 220%;
 }
+
+p{
+ display:inline-block;
+ vertical-align:middle;
+}

@@ -25,7 +25,7 @@
 
   session_start();
   $_SESSION['qnum']++;
-  print "Q.".$_SESSION['qnum'];
+  print "Q".$_SESSION['qnum'].".";
   do{
     $_SESSION['qn']=rand(1,5);
   }while(in_array($_SESSION['qn'],$_SESSION['endque']));
