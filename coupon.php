@@ -11,6 +11,6 @@
 下のクーポンの画像を印刷してを下のリンクにあるお店にもっていこう!!<br>
 いろいろな割引をしてもらえるよ!!<br>
 <img src="./image/ticket_coupon.png" alt="coupon" title="coupon">
-<a href="shop.php"><br><br>クーポン利用可能店</a>
+<a href="shop.php" target="_blank"><br><br>クーポン利用可能店</a>
 </body>
 </html>
