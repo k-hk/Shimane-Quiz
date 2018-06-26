@@ -36,8 +36,8 @@
   $stmt= $pdo->query($sql);
   $_SESSION['que'] = $stmt->fetch(PDO::FETCH_ASSOC);
 
-  //$sql = "select name from img where num={$_SESSION['qn']};";
-  $sql = "select name from img where num=1;";
+  $sql = "select name from img where num={$_SESSION['qn']};";
+  //$sql = "select name from img where num=1;";
   $stmt= $pdo->query($sql);
   $_SESSION['img'] = $stmt->fetch(PDO::FETCH_ASSOC);
  
