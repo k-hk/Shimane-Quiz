@@ -43,10 +43,10 @@
  
   print $_SESSION['que'][question];
   
-  print "<br><br>";
+  print "<br><br><eng>";
   print '<pre><a href="answer.php?ans=1">'.$_SESSION['que'][ans1].'</a>';
   print '　　　　<a href="answer.php?ans=2">'.$_SESSION['que'][ans2].'</a>　　　　';
-  print '<a href="answer.php?ans=3">'.$_SESSION['que'][ans3].'</a></pre>';
+  print '<a href="answer.php?ans=3">'.$_SESSION['que'][ans3].'</a></pre></eng>';
 
 ?>
 
@@ -55,3 +55,4 @@
 </body>
 </html>
 
+select question,ans1,ans2,ans3,tans from quiz_eng where num=1;
