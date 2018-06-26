@@ -14,3 +14,12 @@ insert into quiz(question,ans1,ans2,ans3,tans) values ('<br>主に宍道湖で�
 ,('<br>安来市にある月山富田城は<br>なんこう不落の城として有名で<br>ある別名でも呼ばれていました。<br>それは何でしょう？','最強の城','天空の城','大地の城',2)
 ,('<br>安来市の伝統芸能である安来節には<br>ユーモラスなおどりがあります。<br>それは何おどりでしょう？','どじょうすくい','うなぎとり','しおひがり',1)
 ,('<br>浜田市にある水族館アクアスにいる<br>日本で4箇所の水族館でしか<br>飼育されていない<br>生き物は何でしょう?','シロイルカ','ジンベエザメ','シャチ',1);
+
+insert into quiz_eng(question,ans1,ans2,ans3,tans) values ('<br>What are the marine products removed<br>mainly in Lake Shinji that<br>fish catches of Shimane are number one<br>in Japan for 3 consecutive years?','freshwater calm','turban shell','tuna',1)
+,('<br>Nima sand museum has<br>big thing in Ooda city.<br>What is it?','glasses','hourglass','robot',2)
+,('<br>It is one of the<br>local japanese dish in Izumo.<br>What is it?','Izumo Udon','Izumo Somen','Izumo Soba',3)
+,('<br>Adati museum has<br>the best thing <br>in the world.<br>What is it?','pot','picture','garden',3)
+,('<br>it was registered<br>as a World Heritage site in 2007.<br>What is it?','Ooda GInzan','Iwami Ginzan','Hamada Ginzan',2);
+
+
+create table quiz_eng(num serial,question varchar(300),ans1 varchar(100),ans2 varchar(100),ans3 varchar(100),tans int);

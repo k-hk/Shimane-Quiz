@@ -37,11 +37,11 @@
   {
     if($_SESSION['cnum']==5)
     {
-      print 'Congratulation!!<br>You<br>are<br>Shimane Master!!<br><br>';
+      print 'Congratulation!!<br>You are<br>Shimane Master!!<br><br>';
     }
     else
     {
-      print 'What happened?<br>You<br>are<br>capable of more!!<br><br>';
+      print 'What happened?<br>You are<br>capable of more!!<br><br>';
     }
     print '<a href="index_eng.php">Back to the title</a>';
   }

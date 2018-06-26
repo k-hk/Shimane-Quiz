@@ -27,12 +27,12 @@
   $_SESSION['qnum']++;
   print "Q".$_SESSION['qnum'].".";
   do{
-    $_SESSION['qn']=rand(1,8);
+    $_SESSION['qn']=rand(1,5);
   }while(in_array($_SESSION['qn'],$_SESSION['endque']));
 
   array_push($_SESSION['endque'],$_SESSION['qn']);
 
-  $sql = "select question,ans1,ans2,ans3,tans from quiz where num={$_SESSION['qn']};";
+  $sql = "select question,ans1,ans2,ans3,tans from quiz_eng where num={$_SESSION['qn']};";
   $stmt= $pdo->query($sql);
   $_SESSION['que'] = $stmt->fetch(PDO::FETCH_ASSOC);
 

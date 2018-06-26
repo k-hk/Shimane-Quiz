@@ -34,14 +34,27 @@
 
   print '<img src="./image/'.$_SESSION['img'][name].'" alt="ans" height=300 width=300><br><br>';
   print '<pre>A'.$_SESSION['qnum'].'.　'.$_SESSION['que']["ans{$_SESSION['que'][tans]}"].'</pre>';
-  
-  if($_SESSION['qnum']>=5)
+  if($_SESSION['lang']==0)
   {
-    print '<br><a href="result.php">結果発表</a>';
+    if($_SESSION['qnum']>=5)
+    {
+      print '<br><a href="result.php">結果発表</a>';
+    }
+    else
+    {
+      print '<br><a href="quiz.php">次の問題へ</a>';
+    }
   }
   else
   {
-    print '<br><a href="quiz.php">次の問題へ</a>';
+    if($_SESSION['qnum']>=5)
+    {
+      print '<br><a href="result.php">Result</a>';
+    }
+    else
+    {
+      print '<br><a href="quiz_eng.php">Next Question</a>';
+    }
   }
 ?>
 

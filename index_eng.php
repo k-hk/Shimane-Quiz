@@ -24,7 +24,7 @@ Good things<br>
 Quiz<br>
 <eng>
 <pre>
-<a href="quiz.php"><br>start</a>
+<a href="quiz_eng.php"><br>start</a>
 
 
 <?php
