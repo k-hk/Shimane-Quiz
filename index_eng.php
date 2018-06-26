@@ -34,6 +34,7 @@ Quiz<br>
     $_SESSION['cornum']=0;
   }
   $_SESSION['qnum']=0;
+  $_SESSION['lang']=1;
   $_SESSION['cnum']=0;
   $_SESSION['endque']=array();
   array_push($_SESSION['endque'],0);
@@ -42,7 +43,7 @@ Quiz<br>
   if($_SESSION['cornum']>=$prize)
   {
     print 'Total number of correct answers is '.$_SESSION['cornum'].'.';
-    print '<br><br><a href="coupon.php" target="_blank">Click here to get the prize!!</a>';
+    print '<br><br><a href="coupon_eng.php" target="_blank">Click here to get the prize!!</a>';
   }
   else
   {

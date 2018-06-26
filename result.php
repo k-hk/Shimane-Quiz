@@ -21,17 +21,32 @@
 <?php
   session_start();
   print '5問中'.$_SESSION['cnum'].'問正解!!!<br><br>';
-
-  if($_SESSION['cnum']==5)
+  if($_SESSION['lang']==0)
   {
-    print 'Congratulation!!<br>すばらしい!!<br>君は<br>島根マスターだ!!<br><br>';
+    if($_SESSION['cnum']==5)
+    {
+      print 'Congratulation!!<br>すばらしい!!<br>君は<br>島根マスターだ!!<br><br>';
+    }
+    else
+    {
+      print 'どうしたんだ!!!!<br>君の島根に対する<br>パッションは<br> この程度じゃないはずだ!!!!<br><br>';
+    }
+    print '<a href="index.php">タイトルへ</a>';
   }
   else
   {
-    print 'どうしたんだ!!!!<br>君の島根に対する<br>パッションは<br>この程度じゃないはずだ!!!!<br><br>';
+    if($_SESSION['cnum']==5)
+    {
+      print 'Congratulation!!<br>You<br>are<br>Shimane Master!!<br><br>';
+    }
+    else
+    {
+      print 'What happened?<br>You<br>are<br>capable of more!!<br><br>';
+    }
+    print '<a href="index_eng.php">Back to the title</a>';
   }
 
-  print '<a href="index.php">タイトルへ</a>';
+  
   
 ?>
 
