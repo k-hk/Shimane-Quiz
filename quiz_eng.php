@@ -54,5 +54,3 @@
 </h1>
 </body>
 </html>
-
-select question,ans1,ans2,ans3,tans from quiz_eng where num=1;
